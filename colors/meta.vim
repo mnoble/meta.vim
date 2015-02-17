@@ -70,6 +70,8 @@ call s:color("Operator", s:cyan)
 call s:color("Type", s:blue)
 call s:color("Define", s:purple)
 call s:color("Include", s:blue)
+call s:color("Pmenu", "none", s:bright_black)
+call s:color("PmenuSel", s:bright_white, s:bright_yellow)
 
 " Vim Highlighting
 call s:color("vimCommand", s:red)
